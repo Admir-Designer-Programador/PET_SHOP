@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+    
+}
+
+.navheader{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container_links{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.entralink{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #33303e;
+}
+
+.cadastroLink{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fbbe06;
+
+}
+
+.Pet{
+
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+}
+
+h1{
+   
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 250%;
+}
+
+
+.containerText{
+    padding-left: 120px;
+    padding-right: 120px;
+    width: 50%;
+}
+
+
+.img{
+    width: 45%;
+}
+
+.item{
+    width: 360px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+
+    padding: 25px;
+    border-radius: 10px;
+    color:#FFFFFF;
+    background-color: #f4b413;
+    border: #010101; 
+    font-size: 25px;
+}
+
+.Caminhada{
+    background-color: #c6bb9e;
+
+}
+
+.Text{
+display: flex;
+justify-content: center;
+font-family: 'Raleway', sans-serif;
+
+}
+
+.Retagulo{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.QuadradoEsquedo{
+    background-color: #fbbe06;
+    width: 400px;
+    height: 400px;
+   
+}
+
+.img2{
+    width: 250%;
+    height: 250%;
+
+}
+
+.QuadradoDireita{
+    font-family: 'Raleway', sans-serif;
+    background-color: #fbbe06;
+    width: 400px;
+    height: 400px;
+
+}
